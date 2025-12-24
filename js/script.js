@@ -7,3 +7,9 @@ function prendiTesto() {
 function mostraRisultato(testo) {
   document.getElementById("risultato").textContent = testo;
 }
+
+// CONVERTE TUTTO IN MAIUSCOLO //
+function maiuscolo() {
+  let testo = prendiTesto();
+  mostraRisultato(testo.toUpperCase());
+}
