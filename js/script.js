@@ -13,3 +13,9 @@ function maiuscolo() {
   let testo = prendiTesto();
   mostraRisultato(testo.toUpperCase());
 }
+
+// CONVERTE TUTTO IN minuscolo //
+function minuscolo() {
+  let testo = prendiTesto();
+  mostraRisultato(testo.toLowerCase());
+}
