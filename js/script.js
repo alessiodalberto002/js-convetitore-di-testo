@@ -31,3 +31,11 @@ function inizialiMaiuscole() {
 
   mostraRisultato(risultato.join(" "));
 }
+
+// INVERTE L'ORDINE DELLE PAROLE //
+function invertiParole() {
+  let testo = prendiTesto();
+
+  let risultato = testo.split(" ").reverse().join(" ");
+  mostraRisultato(risultato);
+}
